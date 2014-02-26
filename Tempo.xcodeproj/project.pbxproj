@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		559DE4BD18BDBFFE00D374E1 /* TempoLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DE4BC18BDBFFE00D374E1 /* TempoLoginViewController.m */; };
+		559DE4C018BDC11300D374E1 /* TempoPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DE4BF18BDC11300D374E1 /* TempoPhotoViewController.m */; };
+		559DE4C718BDCAB200D374E1 /* ImageWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DE4C618BDCAB200D374E1 /* ImageWallViewController.m */; };
+		559DE4CB18BDCB0F00D374E1 /* UploadImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DE4CA18BDCB0F00D374E1 /* UploadImageViewController.m */; };
+		559DE4CF18BDCB7400D374E1 /* UIImage+Scaling.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DE4CE18BDCB7400D374E1 /* UIImage+Scaling.m */; };
+		559DE4D218BDCBA300D374E1 /* Comms.m in Sources */ = {isa = PBXBuildFile; fileRef = 559DE4D118BDCBA300D374E1 /* Comms.m */; };
+		559DE4D818BDCCD400D374E1 /* FBLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4D418BDCCD400D374E1 /* FBLogin.png */; };
+		559DE4D918BDCCD400D374E1 /* FBLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4D518BDCCD400D374E1 /* FBLogin@2x.png */; };
+		559DE4DA18BDCCD400D374E1 /* FBShare.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4D618BDCCD400D374E1 /* FBShare.png */; };
+		559DE4DB18BDCCD400D374E1 /* FBShare@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4D718BDCCD400D374E1 /* FBShare@2x.png */; };
+		559DE4E118BDCD1600D374E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4DC18BDCD1600D374E1 /* Default-568h@2x.png */; };
+		559DE4E218BDCD1600D374E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4DD18BDCD1600D374E1 /* Default.png */; };
+		559DE4E318BDCD1600D374E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4DE18BDCD1600D374E1 /* Default@2x.png */; };
+		559DE4E418BDCD1600D374E1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4DF18BDCD1600D374E1 /* Icon.png */; };
+		559DE4E518BDCD1600D374E1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4E018BDCD1600D374E1 /* Icon@2x.png */; };
+		559DE4E718BDCD7200D374E1 /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559DE4E618BDCD7200D374E1 /* Storyboard_iPhone.storyboard */; };
+		559DE4E918BDD0E400D374E1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559DE4E818BDD0E400D374E1 /* FacebookSDK.framework */; };
 		55FB37A118BAA1AA00A40A59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37A018BAA1AA00A40A59 /* Foundation.framework */; };
 		55FB37A318BAA1AA00A40A59 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37A218BAA1AA00A40A59 /* CoreGraphics.framework */; };
 		55FB37A518BAA1AA00A40A59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37A418BAA1AA00A40A59 /* UIKit.framework */; };
 		55FB37A718BAA1AA00A40A59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37A618BAA1AA00A40A59 /* CoreData.framework */; };
 		55FB37AD18BAA1AA00A40A59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FB37AB18BAA1AA00A40A59 /* InfoPlist.strings */; };
 		55FB37AF18BAA1AA00A40A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB37AE18BAA1AA00A40A59 /* main.m */; };
-		55FB37B318BAA1AA00A40A59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB37B218BAA1AA00A40A59 /* AppDelegate.m */; };
+		55FB37B318BAA1AA00A40A59 /* TempoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB37B218BAA1AA00A40A59 /* TempoAppDelegate.m */; };
 		55FB37B618BAA1AA00A40A59 /* Tempo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 55FB37B418BAA1AA00A40A59 /* Tempo.xcdatamodeld */; };
 		55FB37B818BAA1AA00A40A59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FB37B718BAA1AA00A40A59 /* Images.xcassets */; };
 		55FB37BF18BAA1AA00A40A59 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37BE18BAA1AA00A40A59 /* XCTest.framework */; };
@@ -22,6 +39,17 @@
 		55FB37C218BAA1AA00A40A59 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37A618BAA1AA00A40A59 /* CoreData.framework */; };
 		55FB37CA18BAA1AA00A40A59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55FB37C818BAA1AA00A40A59 /* InfoPlist.strings */; };
 		55FB37CC18BAA1AA00A40A59 /* TempoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB37CB18BAA1AA00A40A59 /* TempoTests.m */; };
+		55FB37D618BAA36400A40A59 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37D518BAA36400A40A59 /* Parse.framework */; };
+		55FB37D818BAA42100A40A59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37D718BAA42100A40A59 /* AudioToolbox.framework */; };
+		55FB37DA18BAA42900A40A59 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37D918BAA42900A40A59 /* CFNetwork.framework */; };
+		55FB37DC18BAA43E00A40A59 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37DB18BAA43E00A40A59 /* CoreLocation.framework */; };
+		55FB37DE18BAA44E00A40A59 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37DD18BAA44E00A40A59 /* libz.dylib */; };
+		55FB37E018BAA45800A40A59 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37DF18BAA45800A40A59 /* MobileCoreServices.framework */; };
+		55FB37E218BAA47500A40A59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37E118BAA47500A40A59 /* QuartzCore.framework */; };
+		55FB37E418BAA47C00A40A59 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37E318BAA47C00A40A59 /* Security.framework */; };
+		55FB37E618BAA49400A40A59 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37E518BAA49400A40A59 /* StoreKit.framework */; };
+		55FB37E818BAA4AE00A40A59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55FB37E718BAA4AE00A40A59 /* SystemConfiguration.framework */; };
+		55FB37EB18BAA73700A40A59 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FB37EA18BAA73700A40A59 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +63,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		559DE4BB18BDBFFE00D374E1 /* TempoLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempoLoginViewController.h; sourceTree = "<group>"; };
+		559DE4BC18BDBFFE00D374E1 /* TempoLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempoLoginViewController.m; sourceTree = "<group>"; };
+		559DE4BE18BDC11300D374E1 /* TempoPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempoPhotoViewController.h; sourceTree = "<group>"; };
+		559DE4BF18BDC11300D374E1 /* TempoPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempoPhotoViewController.m; sourceTree = "<group>"; };
+		559DE4C118BDC1CD00D374E1 /* TempoProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempoProtocols.h; sourceTree = "<group>"; };
+		559DE4C518BDCA9100D374E1 /* ImageWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageWallViewController.h; sourceTree = "<group>"; };
+		559DE4C618BDCAB200D374E1 /* ImageWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageWallViewController.m; sourceTree = "<group>"; };
+		559DE4C918BDCB0F00D374E1 /* UploadImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImageViewController.h; sourceTree = "<group>"; };
+		559DE4CA18BDCB0F00D374E1 /* UploadImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageViewController.m; sourceTree = "<group>"; };
+		559DE4CD18BDCB7400D374E1 /* UIImage+Scaling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scaling.h"; sourceTree = "<group>"; };
+		559DE4CE18BDCB7400D374E1 /* UIImage+Scaling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scaling.m"; sourceTree = "<group>"; };
+		559DE4D018BDCBA300D374E1 /* Comms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comms.h; sourceTree = "<group>"; };
+		559DE4D118BDCBA300D374E1 /* Comms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comms.m; sourceTree = "<group>"; };
+		559DE4D418BDCCD400D374E1 /* FBLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBLogin.png; sourceTree = "<group>"; };
+		559DE4D518BDCCD400D374E1 /* FBLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBLogin@2x.png"; sourceTree = "<group>"; };
+		559DE4D618BDCCD400D374E1 /* FBShare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBShare.png; sourceTree = "<group>"; };
+		559DE4D718BDCCD400D374E1 /* FBShare@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBShare@2x.png"; sourceTree = "<group>"; };
+		559DE4DC18BDCD1600D374E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		559DE4DD18BDCD1600D374E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		559DE4DE18BDCD1600D374E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		559DE4DF18BDCD1600D374E1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		559DE4E018BDCD1600D374E1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		559DE4E618BDCD7200D374E1 /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		559DE4E818BDD0E400D374E1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		55FB379D18BAA1AA00A40A59 /* Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FB37A018BAA1AA00A40A59 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55FB37A218BAA1AA00A40A59 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,8 +96,8 @@
 		55FB37AC18BAA1AA00A40A59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55FB37AE18BAA1AA00A40A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55FB37B018BAA1AA00A40A59 /* Tempo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tempo-Prefix.pch"; sourceTree = "<group>"; };
-		55FB37B118BAA1AA00A40A59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		55FB37B218BAA1AA00A40A59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55FB37B118BAA1AA00A40A59 /* TempoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TempoAppDelegate.h; path = Tempo/TempoAppDelegate.h; sourceTree = "<group>"; };
+		55FB37B218BAA1AA00A40A59 /* TempoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TempoAppDelegate.m; path = Tempo/TempoAppDelegate.m; sourceTree = "<group>"; };
 		55FB37B518BAA1AA00A40A59 /* Tempo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tempo.xcdatamodel; sourceTree = "<group>"; };
 		55FB37B718BAA1AA00A40A59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55FB37BD18BAA1AA00A40A59 /* TempoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +105,18 @@
 		55FB37C718BAA1AA00A40A59 /* TempoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempoTests-Info.plist"; sourceTree = "<group>"; };
 		55FB37C918BAA1AA00A40A59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55FB37CB18BAA1AA00A40A59 /* TempoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempoTests.m; sourceTree = "<group>"; };
+		55FB37D518BAA36400A40A59 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		55FB37D718BAA42100A40A59 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		55FB37D918BAA42900A40A59 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		55FB37DB18BAA43E00A40A59 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55FB37DD18BAA44E00A40A59 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		55FB37DF18BAA45800A40A59 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		55FB37E118BAA47500A40A59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55FB37E318BAA47C00A40A59 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		55FB37E518BAA49400A40A59 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		55FB37E718BAA4AE00A40A59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		55FB37E918BAA73700A40A59 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		55FB37EA18BAA73700A40A59 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +124,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FB37E818BAA4AE00A40A59 /* SystemConfiguration.framework in Frameworks */,
+				55FB37E618BAA49400A40A59 /* StoreKit.framework in Frameworks */,
+				55FB37E418BAA47C00A40A59 /* Security.framework in Frameworks */,
+				55FB37E218BAA47500A40A59 /* QuartzCore.framework in Frameworks */,
+				55FB37E018BAA45800A40A59 /* MobileCoreServices.framework in Frameworks */,
+				55FB37DE18BAA44E00A40A59 /* libz.dylib in Frameworks */,
+				55FB37DC18BAA43E00A40A59 /* CoreLocation.framework in Frameworks */,
 				55FB37A318BAA1AA00A40A59 /* CoreGraphics.framework in Frameworks */,
+				55FB37DA18BAA42900A40A59 /* CFNetwork.framework in Frameworks */,
+				55FB37D818BAA42100A40A59 /* AudioToolbox.framework in Frameworks */,
 				55FB37A718BAA1AA00A40A59 /* CoreData.framework in Frameworks */,
+				559DE4E918BDD0E400D374E1 /* FacebookSDK.framework in Frameworks */,
 				55FB37A518BAA1AA00A40A59 /* UIKit.framework in Frameworks */,
 				55FB37A118BAA1AA00A40A59 /* Foundation.framework in Frameworks */,
+				55FB37D618BAA36400A40A59 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +156,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		559DE4B318BDB7F400D374E1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4E618BDCD7200D374E1 /* Storyboard_iPhone.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		559DE4B418BDBAD700D374E1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				55FB37B118BAA1AA00A40A59 /* TempoAppDelegate.h */,
+				55FB37B218BAA1AA00A40A59 /* TempoAppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		559DE4B718BDBDC400D374E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4C818BDCAE200D374E1 /* UploadImage */,
+				559DE4C418BDCA6D00D374E1 /* ImageWall */,
+				559DE4BA18BDBE2600D374E1 /* MainView */,
+				559DE4B818BDBDDD00D374E1 /* Login */,
+				559DE4B918BDBDEC00D374E1 /* Photo */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		559DE4B818BDBDDD00D374E1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4BB18BDBFFE00D374E1 /* TempoLoginViewController.h */,
+				559DE4BC18BDBFFE00D374E1 /* TempoLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		559DE4B918BDBDEC00D374E1 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4BE18BDC11300D374E1 /* TempoPhotoViewController.h */,
+				559DE4BF18BDC11300D374E1 /* TempoPhotoViewController.m */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		559DE4BA18BDBE2600D374E1 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				55FB37E918BAA73700A40A59 /* MainViewController.h */,
+				55FB37EA18BAA73700A40A59 /* MainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		559DE4C418BDCA6D00D374E1 /* ImageWall */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4C518BDCA9100D374E1 /* ImageWallViewController.h */,
+				559DE4C618BDCAB200D374E1 /* ImageWallViewController.m */,
+			);
+			name = ImageWall;
+			sourceTree = "<group>";
+		};
+		559DE4C818BDCAE200D374E1 /* UploadImage */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4C918BDCB0F00D374E1 /* UploadImageViewController.h */,
+				559DE4CA18BDCB0F00D374E1 /* UploadImageViewController.m */,
+			);
+			name = UploadImage;
+			sourceTree = "<group>";
+		};
+		559DE4CC18BDCB5B00D374E1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4CD18BDCB7400D374E1 /* UIImage+Scaling.h */,
+				559DE4CE18BDCB7400D374E1 /* UIImage+Scaling.m */,
+				559DE4D018BDCBA300D374E1 /* Comms.h */,
+				559DE4D118BDCBA300D374E1 /* Comms.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		559DE4D318BDCC5900D374E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				559DE4DC18BDCD1600D374E1 /* Default-568h@2x.png */,
+				559DE4DD18BDCD1600D374E1 /* Default.png */,
+				559DE4DE18BDCD1600D374E1 /* Default@2x.png */,
+				559DE4DF18BDCD1600D374E1 /* Icon.png */,
+				559DE4E018BDCD1600D374E1 /* Icon@2x.png */,
+				559DE4D418BDCCD400D374E1 /* FBLogin.png */,
+				559DE4D518BDCCD400D374E1 /* FBLogin@2x.png */,
+				559DE4D618BDCCD400D374E1 /* FBShare.png */,
+				559DE4D718BDCCD400D374E1 /* FBShare@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		55FB379418BAA1AA00A40A59 = {
 			isa = PBXGroup;
 			children = (
+				559DE4C118BDC1CD00D374E1 /* TempoProtocols.h */,
+				559DE4B418BDBAD700D374E1 /* Delegates */,
+				559DE4B318BDB7F400D374E1 /* Storyboards */,
 				55FB37A818BAA1AA00A40A59 /* Tempo */,
+				55FB37A918BAA1AA00A40A59 /* Supporting Files */,
 				55FB37C518BAA1AA00A40A59 /* TempoTests */,
 				55FB379F18BAA1AA00A40A59 /* Frameworks */,
 				55FB379E18BAA1AA00A40A59 /* Products */,
@@ -103,6 +283,17 @@
 		55FB379F18BAA1AA00A40A59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				559DE4E818BDD0E400D374E1 /* FacebookSDK.framework */,
+				55FB37E718BAA4AE00A40A59 /* SystemConfiguration.framework */,
+				55FB37E518BAA49400A40A59 /* StoreKit.framework */,
+				55FB37E318BAA47C00A40A59 /* Security.framework */,
+				55FB37E118BAA47500A40A59 /* QuartzCore.framework */,
+				55FB37DF18BAA45800A40A59 /* MobileCoreServices.framework */,
+				55FB37DD18BAA44E00A40A59 /* libz.dylib */,
+				55FB37DB18BAA43E00A40A59 /* CoreLocation.framework */,
+				55FB37D918BAA42900A40A59 /* CFNetwork.framework */,
+				55FB37D718BAA42100A40A59 /* AudioToolbox.framework */,
+				55FB37D518BAA36400A40A59 /* Parse.framework */,
 				55FB37A018BAA1AA00A40A59 /* Foundation.framework */,
 				55FB37A218BAA1AA00A40A59 /* CoreGraphics.framework */,
 				55FB37A418BAA1AA00A40A59 /* UIKit.framework */,
@@ -115,11 +306,9 @@
 		55FB37A818BAA1AA00A40A59 /* Tempo */ = {
 			isa = PBXGroup;
 			children = (
-				55FB37B118BAA1AA00A40A59 /* AppDelegate.h */,
-				55FB37B218BAA1AA00A40A59 /* AppDelegate.m */,
-				55FB37B718BAA1AA00A40A59 /* Images.xcassets */,
-				55FB37B418BAA1AA00A40A59 /* Tempo.xcdatamodeld */,
-				55FB37A918BAA1AA00A40A59 /* Supporting Files */,
+				559DE4B718BDBDC400D374E1 /* ViewControllers */,
+				559DE4CC18BDCB5B00D374E1 /* Utility */,
+				559DE4D318BDCC5900D374E1 /* Images */,
 			);
 			path = Tempo;
 			sourceTree = "<group>";
@@ -127,12 +316,15 @@
 		55FB37A918BAA1AA00A40A59 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55FB37B718BAA1AA00A40A59 /* Images.xcassets */,
+				55FB37B418BAA1AA00A40A59 /* Tempo.xcdatamodeld */,
 				55FB37AA18BAA1AA00A40A59 /* Tempo-Info.plist */,
 				55FB37AB18BAA1AA00A40A59 /* InfoPlist.strings */,
 				55FB37AE18BAA1AA00A40A59 /* main.m */,
 				55FB37B018BAA1AA00A40A59 /* Tempo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Tempo;
 			sourceTree = "<group>";
 		};
 		55FB37C518BAA1AA00A40A59 /* TempoTests */ = {
@@ -228,8 +420,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559DE4DB18BDCCD400D374E1 /* FBShare@2x.png in Resources */,
+				559DE4E518BDCD1600D374E1 /* Icon@2x.png in Resources */,
+				559DE4E218BDCD1600D374E1 /* Default.png in Resources */,
+				559DE4E318BDCD1600D374E1 /* Default@2x.png in Resources */,
+				559DE4D918BDCCD400D374E1 /* FBLogin@2x.png in Resources */,
 				55FB37AD18BAA1AA00A40A59 /* InfoPlist.strings in Resources */,
+				559DE4E718BDCD7200D374E1 /* Storyboard_iPhone.storyboard in Resources */,
 				55FB37B818BAA1AA00A40A59 /* Images.xcassets in Resources */,
+				559DE4E118BDCD1600D374E1 /* Default-568h@2x.png in Resources */,
+				559DE4E418BDCD1600D374E1 /* Icon.png in Resources */,
+				559DE4D818BDCCD400D374E1 /* FBLogin.png in Resources */,
+				559DE4DA18BDCCD400D374E1 /* FBShare.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,9 +450,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FB37B318BAA1AA00A40A59 /* AppDelegate.m in Sources */,
+				55FB37B318BAA1AA00A40A59 /* TempoAppDelegate.m in Sources */,
+				559DE4C718BDCAB200D374E1 /* ImageWallViewController.m in Sources */,
 				55FB37AF18BAA1AA00A40A59 /* main.m in Sources */,
+				559DE4D218BDCBA300D374E1 /* Comms.m in Sources */,
+				55FB37EB18BAA73700A40A59 /* MainViewController.m in Sources */,
+				559DE4C018BDC11300D374E1 /* TempoPhotoViewController.m in Sources */,
+				559DE4CB18BDCB0F00D374E1 /* UploadImageViewController.m in Sources */,
 				55FB37B618BAA1AA00A40A59 /* Tempo.xcdatamodeld in Sources */,
+				559DE4BD18BDBFFE00D374E1 /* TempoLoginViewController.m in Sources */,
+				559DE4CF18BDCB7400D374E1 /* UIImage+Scaling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +580,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/stevenlyons/Documents/Business\\ /Tempo/iOS/Tempo",
+					/Users/stevenlyons/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tempo/Tempo-Prefix.pch";
 				INFOPLIST_FILE = "Tempo/Tempo-Info.plist";
@@ -384,6 +598,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/stevenlyons/Documents/Business\\ /Tempo/iOS/Tempo",
+					/Users/stevenlyons/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tempo/Tempo-Prefix.pch";
 				INFOPLIST_FILE = "Tempo/Tempo-Info.plist";
@@ -453,6 +672,7 @@
 				55FB37D118BAA1AA00A40A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FB37D218BAA1AA00A40A59 /* Build configuration list for PBXNativeTarget "TempoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +681,7 @@
 				55FB37D418BAA1AA00A40A59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
