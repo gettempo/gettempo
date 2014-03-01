@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--Tempo Login View Controller - Login-->
+        <!--Wink Smile Pout Login View Controller - Login-->
         <scene sceneID="4Sh-h3-aWD">
             <objects>
-                <viewController id="rUk-pP-Pdn" customClass="TempoLoginViewController" sceneMemberID="viewController">
+                <viewController id="rUk-pP-Pdn" customClass="WinkSmilePoutLoginViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PZK-wn-yli">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -56,7 +56,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ImageCell" rowHeight="100" id="xgW-TQ-C4g" customClass="ImageWallTableImageCell">
-                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xgW-TQ-C4g" id="imF-Cl-PUe">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
@@ -117,7 +117,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CommentCell" rowHeight="44" id="xnW-7a-Kc5" customClass="ImageWallTableCommentCell">
-                                <rect key="frame" x="0.0" y="186" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="122" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xnW-7a-Kc5" id="f6r-jB-abv">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -142,7 +142,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NewCommentCell" rowHeight="44" id="N6I-fW-xpT" customClass="ImageWallTableNewCommentCell">
-                                <rect key="frame" x="0.0" y="230" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="166" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N6I-fW-xpT" id="WdI-Zx-ClD">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -188,42 +188,26 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ior-RS-liT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="950" y="64"/>
+            <point key="canvasLocation" x="894" y="-854"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="X8h-Ea-G9Z">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="Qfs-l9-buu" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Za4-S6-bPt"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="DaI-pw-1xc">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="lDK-fu-iwH" kind="relationship" relationship="viewControllers" id="lbh-Pq-jLF"/>
-                        <segue destination="srz-p1-7gw" kind="relationship" relationship="viewControllers" id="3BR-Yy-m4m"/>
+                        <segue destination="0w7-oa-CYI" kind="relationship" relationship="viewControllers" id="xqN-TT-Z9t"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYD-Dl-zdG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="303" y="965"/>
-        </scene>
-        <!--View Controller - Item 2-->
-        <scene sceneID="Cfa-ER-NBR">
-            <objects>
-                <viewController id="lDK-fu-iwH" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gkI-7r-6jK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Z0k-gM-2Gf"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hZp-pV-TRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="837" y="1291"/>
+            <point key="canvasLocation" x="597" y="64"/>
         </scene>
         <!--Upload Image View Controller - Upload Image-->
         <scene sceneID="1Va-38-U7g">
@@ -321,7 +305,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pga-mh-JRP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1361" y="64"/>
+            <point key="canvasLocation" x="1305" y="-854"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mpg-1e-SDI">
@@ -340,6 +324,82 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOS-cS-PEA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-364" y="64"/>
+        </scene>
+        <!--Cam View Controller - Item-->
+        <scene sceneID="fx0-zr-wid">
+            <objects>
+                <viewController id="0w7-oa-CYI" customClass="WSPCamViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aea-ye-Ea2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ZPO-Xh-A32">
+                                <rect key="frame" x="0.0" y="56" width="320" height="411"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="SKg-u3-NfD" appends="YES" id="VN1-b1-2nj"/>
+                                </connections>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aEC-KD-SIo">
+                                <rect key="frame" x="0.0" y="476" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" id="d3B-CE-4he">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="RsJ-5g-cLu">
+                                            <rect key="frame" x="16" y="7" width="74" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Front"/>
+                                                <segment title="Back"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="switchCameras:" destination="0w7-oa-CYI" eventType="valueChanged" id="bbM-6K-MJR"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="RDg-wC-6lV"/>
+                                    <barButtonItem title="Faces" style="plain" id="adV-hM-92m">
+                                        <connections>
+                                            <action selector="toggleFaceDetection:" destination="0w7-oa-CYI" id="Mx9-3c-Ocv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="m2x-SL-bMh">
+                                        <switch key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="6hA-54-owE">
+                                            <rect key="frame" x="162" y="7" width="51" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <connections>
+                                                <action selector="toggleFaceDetection:" destination="0w7-oa-CYI" eventType="valueChanged" id="n6z-EW-Xdw"/>
+                                            </connections>
+                                        </switch>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="fhX-HJ-RWG"/>
+                                    <barButtonItem title="Snap!" id="I3Q-mG-rWP">
+                                        <connections>
+                                            <action selector="takePicture:" destination="0w7-oa-CYI" id="2vZ-eF-PFt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="GeI-ei-1Yf"/>
+                    <connections>
+                        <outlet property="camerasControl" destination="RsJ-5g-cLu" id="8id-G7-pSK"/>
+                        <outlet property="previewView" destination="ZPO-Xh-A32" id="Ir7-gQ-RTl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PRK-fb-1dv" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="SKg-u3-NfD">
+                    <connections>
+                        <action selector="handlePinchGesture:" destination="0w7-oa-CYI" id="zdF-HT-qai"/>
+                        <outlet property="delegate" destination="0w7-oa-CYI" id="aVW-12-gCr"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1228" y="80"/>
         </scene>
     </scenes>
     <resources>
