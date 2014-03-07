@@ -30,6 +30,9 @@
 
 - (void) viewDidLoad
 {
+    
+    
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Default.png"]];
 	[super viewDidLoad];
 	
 	// Ensure the User is Logged out when loading this View Controller
